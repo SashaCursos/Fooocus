@@ -98,6 +98,19 @@ def download_models():
         model_dir=path_checkpoints,
         file_name='DreamShaperXL.safetensors'
     )
+
+    load_file_from_url(
+        url='https://civitai.com/api/download/models/300972',
+        model_dir=path_checkpoints,
+        file_name='LazyMix.safetensors'
+    )
+
+    load_file_from_url(
+        url='https://civitai.com/api/download/models/245598?type=Model&format=SafeTensor&size=full&fp=fp16',
+        model_dir=path_checkpoints,
+        file_name='RealisticVision6.safetensors'
+    )
+    
     
 #LORAS    
     load_file_from_url(
@@ -177,7 +190,13 @@ def download_models():
         model_dir=path_loras,
         file_name='HandDetailXL.safetensors'
     ) 
-    
+
+    load_file_from_url(
+        url='https://civitai.com/api/download/models/132739?type=Model&format=SafeTensor',
+        model_dir=path_loras,
+        file_name='Onoff.safetensors'
+    ) 
+
     
     
 #EMBEDDINGS
