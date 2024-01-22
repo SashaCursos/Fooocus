@@ -85,19 +85,27 @@ def download_models():
         model_dir=path_fooocus_expansion,
         file_name='pytorch_model.bin'
     )
-
-    load_file_from_url(
-        url='https://civitai.com/api/download/models/280811?type=Model&format=SafeTensor',
-        model_dir=path_loras,
-        file_name='FappXL.safetensors'
-    )
-
+    
+#CHECKPOINTS   
     load_file_from_url(
         url='https://civitai.com/api/download/models/253250',
         model_dir=path_checkpoints,
         file_name='SDXXXL.safetensors'
     )
 
+    load_file_from_url(
+        url='https://civitai.com/api/download/models/251662',
+        model_dir=path_checkpoints,
+        file_name='DreamShaperXL.safetensors'
+    )
+    
+#LORAS    
+    load_file_from_url(
+        url='https://civitai.com/api/download/models/280811?type=Model&format=SafeTensor',
+        model_dir=path_loras,
+        file_name='FappXL.safetensors'
+    )
+    
     load_file_from_url(
         url='https://civitai.com/api/download/models/280241?type=Model&format=SafeTensor',
         model_dir=path_loras,
@@ -122,6 +130,63 @@ def download_models():
         file_name='GapeThyPussySDXL.safetensors'
     )
 
+    load_file_from_url(
+        url='https://civitai.com/api/download/models/140555',
+        model_dir=path_loras,
+        file_name='POVMissionarySDXL.safetensors'
+    )
+
+    load_file_from_url(
+        url='https://civitai.com/api/download/models/137178',
+        model_dir=path_loras,
+        file_name='POVDoggystyleSDXL.safetensors'
+    )
+
+    load_file_from_url(
+        url='https://civitai.com/api/download/models/138784',
+        model_dir=path_loras,
+        file_name='POVCowgirlSDXL.safetensors'
+    )
+
+    load_file_from_url(
+        url='https://civitai.com/api/download/models/285434?type=Model&format=SafeTensor',
+        model_dir=path_loras,
+        file_name='SpreadAssSDXL.safetensors'
+    )
+
+    load_file_from_url(
+        url='https://civitai.com/api/download/models/141832',
+        model_dir=path_loras,
+        file_name='POVReverseCowgirlSDXL.safetensors'
+    )
+
+    load_file_from_url(
+        url='https://civitai.com/api/download/models/135068',
+        model_dir=path_loras,
+        file_name='POVBlowjobSDXL.safetensors'
+    )   
+
+    load_file_from_url(
+        url='https://civitai.com/api/download/models/294259?type=Model&format=SafeTensor',
+        model_dir=path_loras,
+        file_name='HandDetailXL.safetensors'
+    ) 
+
+    load_file_from_url(
+        url='https://civitai.com/api/download/models/294259?type=Model&format=SafeTensor',
+        model_dir=path_loras,
+        file_name='HandDetailXL.safetensors'
+    ) 
+    
+    
+    
+#EMBEDDINGS
+    
+    load_file_from_url(
+        url='https://civitai.com/api/download/models/166373?type=Model&format=SafeTensor',
+        model_dir=path_embeddings,
+        file_name='UltimateTextEmbeddingsSDXLPack.safetensors'
+    )
     
     
 
