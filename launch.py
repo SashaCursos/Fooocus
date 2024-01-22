@@ -97,6 +97,12 @@ def download_models():
         model_dir=path_checkpoints,
         file_name='SDXXXL.safetensors'
     )
+
+    load_file_from_url(
+        url='https://civitai.com/api/download/models/280241?type=Model&format=SafeTensor',
+        model_dir=path_loras,
+        file_name='FingeringSDXL.safetensors'
+    )
     
     
 
