@@ -88,25 +88,29 @@ def download_models():
     
 #CHECKPOINTS   
     load_file_from_url(
-        url='https://civitai.com/api/download/models/253250',
+        url='https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/sdxxxl_v30.safetensors?download=true',
+        #url='https://civitai.com/api/download/models/253250',
         model_dir=path_checkpoints,
         file_name='SDXXXL.safetensors'
     )
 
     load_file_from_url(
-        url='https://civitai.com/api/download/models/251662',
+        url='https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/dreamshaperXL_turboDpmppSDE.safetensors?download=true',
+        #url='https://civitai.com/api/download/models/251662',
         model_dir=path_checkpoints,
         file_name='DreamShaperXL.safetensors'
     )
 
     load_file_from_url(
-        url='https://civitai.com/api/download/models/300972',
+        url='https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/lazymixRealAmateur_v40.safetensors?download=true',
+        #url='https://civitai.com/api/download/models/300972',
         model_dir=path_checkpoints,
         file_name='LazyMix.safetensors'
     )
 
     load_file_from_url(
-        url='https://civitai.com/api/download/models/245598?type=Model&format=SafeTensor&size=full&fp=fp16',
+        url='https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/realisticVisionV60B1_v60B1VAE.safetensors?download=true',
+        #url='https://civitai.com/api/download/models/245598?type=Model&format=SafeTensor&size=full&fp=fp16',
         model_dir=path_checkpoints,
         file_name='RealisticVision6.safetensors'
     )
