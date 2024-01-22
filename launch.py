@@ -86,6 +86,20 @@ def download_models():
         file_name='pytorch_model.bin'
     )
 
+    load_file_from_url(
+        url='https://civitai.com/api/download/models/280811?type=Model&format=SafeTensor',
+        model_dir=path_loras,
+        file_name='FappXL.safetensors'
+    )
+
+    load_file_from_url(
+        url='https://civitai.com/api/download/models/253250',
+        model_dir=path_checkpoints,
+        file_name='SDXXXL.safetensors'
+    )
+    
+    
+
     return
 
 
