@@ -121,71 +121,71 @@ def download_models():
   
     
 #LORAS    
-    load_file_from_url(
-        url='https://civitai.com/api/download/models/280811?type=Model&format=SafeTensor',
-        model_dir=path_loras,
-        file_name='FappXL.safetensors'
-    )
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/280811?type=Model&format=SafeTensor',
+        #model_dir=path_loras,
+        #file_name='FappXL.safetensors'
+    #)
     
-    load_file_from_url(
-        url='https://civitai.com/api/download/models/280241?type=Model&format=SafeTensor',
-        model_dir=path_loras,
-        file_name='FingeringSDXL.safetensors'
-    )
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/280241?type=Model&format=SafeTensor',
+        #model_dir=path_loras,
+        #file_name='FingeringSDXL.safetensors'
+    #)
     
-    load_file_from_url(
-        url='https://civitai.com/api/download/models/275493',
-        model_dir=path_loras,
-        file_name='PussyLegsTitsPose.safetensors'
-    )
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/275493',
+        #model_dir=path_loras,
+        #file_name='PussyLegsTitsPose.safetensors'
+    #)
 
-    load_file_from_url(
-        url='https://civitai.com/api/download/models/160240?type=Model&format=SafeTensor',
-        model_dir=path_loras,
-        file_name='NSFWPOVAllInOneSDXL.safetensors'
-    )
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/160240?type=Model&format=SafeTensor',
+        #model_dir=path_loras,
+        #file_name='NSFWPOVAllInOneSDXL.safetensors'
+    #)
 
-    load_file_from_url(
-        url='https://civitai.com/api/download/models/131645?type=Model&format=SafeTensor',
-        model_dir=path_loras,
-        file_name='GapeThyPussySDXL.safetensors'
-    )
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/131645?type=Model&format=SafeTensor',
+        #model_dir=path_loras,
+        #file_name='GapeThyPussySDXL.safetensors'
+    #)
 
-    load_file_from_url(
-        url='https://civitai.com/api/download/models/140555',
-        model_dir=path_loras,
-        file_name='POVMissionarySDXL.safetensors'
-    )
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/140555',
+        #model_dir=path_loras,
+        #file_name='POVMissionarySDXL.safetensors'
+    #)
 
-    load_file_from_url(
-        url='https://civitai.com/api/download/models/137178',
-        model_dir=path_loras,
-        file_name='POVDoggystyleSDXL.safetensors'
-    )
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/137178',
+        #model_dir=path_loras,
+        #file_name='POVDoggystyleSDXL.safetensors'
+    #)
 
-    load_file_from_url(
-        url='https://civitai.com/api/download/models/138784',
-        model_dir=path_loras,
-        file_name='POVCowgirlSDXL.safetensors'
-    )
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/138784',
+        #model_dir=path_loras,
+        #file_name='POVCowgirlSDXL.safetensors'
+    #)
 
-    load_file_from_url(
-        url='https://civitai.com/api/download/models/285434?type=Model&format=SafeTensor',
-        model_dir=path_loras,
-        file_name='SpreadAssSDXL.safetensors'
-    )
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/285434?type=Model&format=SafeTensor',
+        #model_dir=path_loras,
+        #file_name='SpreadAssSDXL.safetensors'
+    #)
 
-    load_file_from_url(
-        url='https://civitai.com/api/download/models/141832',
-        model_dir=path_loras,
-        file_name='POVReverseCowgirlSDXL.safetensors'
-    )
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/141832',
+        #model_dir=path_loras,
+        #file_name='POVReverseCowgirlSDXL.safetensors'
+    #)
 
-    load_file_from_url(
-        url='https://civitai.com/api/download/models/135068',
-        model_dir=path_loras,
-        file_name='POVBlowjobSDXL.safetensors'
-    )   
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/135068',
+        #model_dir=path_loras,
+        #file_name='POVBlowjobSDXL.safetensors'
+    #)   
 
     load_file_from_url(
         url='https://civitai.com/api/download/models/294259?type=Model&format=SafeTensor',
@@ -193,23 +193,18 @@ def download_models():
         file_name='HandDetailXL.safetensors'
     ) 
 
-    load_file_from_url(
-        url='https://civitai.com/api/download/models/294259?type=Model&format=SafeTensor',
-        model_dir=path_loras,
-        file_name='HandDetailXL.safetensors'
-    ) 
 
-    load_file_from_url(
-        url='https://civitai.com/api/download/models/132739?type=Model&format=SafeTensor',
-        model_dir=path_loras,
-        file_name='Onoff.safetensors'
-    ) 
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/132739?type=Model&format=SafeTensor',
+        #model_dir=path_loras,
+        #file_name='Onoff.safetensors'
+    #) 
 
-    load_file_from_url(
-        url='https://civitai.com/api/download/models/288679?type=Model&format=SafeTensor',
-        model_dir=path_loras,
-        file_name='iPhoneMirrorSelfie.safetensors'
-    ) 
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/288679?type=Model&format=SafeTensor',
+        #model_dir=path_loras,
+        #file_name='iPhoneMirrorSelfie.safetensors'
+    #) 
     
     
 #EMBEDDINGS
