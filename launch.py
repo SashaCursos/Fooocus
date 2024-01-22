@@ -104,6 +104,25 @@ def download_models():
         file_name='FingeringSDXL.safetensors'
     )
     
+    load_file_from_url(
+        url='https://civitai.com/api/download/models/275493',
+        model_dir=path_loras,
+        file_name='PussyLegsTitsPose.safetensors'
+    )
+
+    load_file_from_url(
+        url='https://civitai.com/api/download/models/160240?type=Model&format=SafeTensor',
+        model_dir=path_loras,
+        file_name='NSFWPOVAllInOneSDXL.safetensors'
+    )
+
+    load_file_from_url(
+        url='https://civitai.com/api/download/models/131645?type=Model&format=SafeTensor',
+        model_dir=path_loras,
+        file_name='GapeThyPussySDXL.safetensors'
+    )
+
+    
     
 
     return
