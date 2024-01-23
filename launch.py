@@ -187,11 +187,11 @@ def download_models():
         #file_name='POVBlowjobSDXL.safetensors'
     #)   
 
-    load_file_from_url(
-        url='https://civitai.com/api/download/models/294259?type=Model&format=SafeTensor',
-        model_dir=path_loras,
-        file_name='HandDetailXL.safetensors'
-    ) 
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/294259?type=Model&format=SafeTensor',
+        #model_dir=path_loras,
+        #file_name='HandDetailXL.safetensors'
+    #) 
 
 
     #load_file_from_url(
@@ -209,11 +209,11 @@ def download_models():
     
 #EMBEDDINGS
     
-    load_file_from_url(
-        url='https://civitai.com/api/download/models/166373?type=Model&format=SafeTensor',
-        model_dir=path_embeddings,
-        file_name='UltimateTextEmbeddingsSDXLPack.safetensors'
-    )
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/166373?type=Model&format=SafeTensor',
+        #model_dir=path_embeddings,
+        #file_name='UltimateTextEmbeddingsSDXLPack.safetensors'
+    #)
     
     
 
