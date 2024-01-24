@@ -261,9 +261,9 @@ checkpoint_downloads = get_config_item_or_set_default(
     key='checkpoint_downloads',
     default_value={
     #"juggernautXL_version6Rundiffusion.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_version6Rundiffusion.safetensors"
-    #"juggernautXL_version8Rundiffusion.safetensors": "https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/juggernautXL_v8Rundiffusion.safetensors?download=true"
-    "SDXXXL.safetensors": "https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/sdxxxl_v30.safetensors?download=true"
-    #"DreamShaperXL.safetensors": "https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/dreamshaperXL_turboDpmppSDE.safetensors?download=true"
+    #"juggernautXL_version8Rundiffusion.safetensors": "https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/juggernautXL_v8Rundiffusion.safetensors"
+    "SDXXXL.safetensors": "https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/sdxxxl_v30.safetensors"
+    #"DreamShaperXL.safetensors": "https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/dreamshaperXL_turboDpmppSDE.safetensors"
     },
     validator=lambda x: isinstance(x, dict) and all(isinstance(k, str) and isinstance(v, str) for k, v in x.items())
 )
