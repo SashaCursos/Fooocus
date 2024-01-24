@@ -167,7 +167,7 @@ default_refiner_model_name = get_config_item_or_set_default(
 )
 default_refiner_switch = get_config_item_or_set_default(
     key='default_refiner_switch',
-    default_value=0.5,
+    default_value=0.4,
     validator=lambda x: isinstance(x, numbers.Number) and 0 <= x <= 1
 )
 default_loras = get_config_item_or_set_default(
