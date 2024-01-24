@@ -205,6 +205,14 @@ def download_models():
         #model_dir=path_loras,
         #file_name='iPhoneMirrorSelfie.safetensors'
     #) 
+
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/197172',
+        #model_dir=path_loras,
+        #file_name='BrieLarsonSDXL.safetensors'
+    #)
+    
+    
     
     
 #EMBEDDINGS
