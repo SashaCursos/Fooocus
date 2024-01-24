@@ -85,8 +85,8 @@ def download_models():
         model_dir=path_fooocus_expansion,
         file_name='pytorch_model.bin'
     )
-    
-#CHECKPOINTS
+
+#CHECKPOINTS XL (ADDED IN THE CONFIG.PY)
 
     #load_file_from_url(
         #url='https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/sdxxxl_v30.safetensors?download=true',
@@ -104,6 +104,8 @@ def download_models():
     #)
 
 
+#REFINERS1.5
+
     load_file_from_url(
         url='https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/lazymixRealAmateur_v40.safetensors?download=true',
         #url='https://civitai.com/api/download/models/300972',
@@ -111,15 +113,13 @@ def download_models():
         file_name='LazyMix.safetensors'
     )
 
-
     #load_file_from_url(
         #url='https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/realisticVisionV60B1_v60B1VAE.safetensors?download=true',
         #url='https://civitai.com/api/download/models/245598?type=Model&format=SafeTensor&size=full&fp=fp16',
         #model_dir=path_checkpoints,
         #file_name='RealisticVision6.safetensors'
     #)
-  
-    
+
 #LORAS    
     #load_file_from_url(
         #url='https://civitai.com/api/download/models/280811?type=Model&format=SafeTensor',
