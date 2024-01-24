@@ -96,20 +96,20 @@ def download_models():
     #)
 
 
-    load_file_from_url(
-        url='https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/dreamshaperXL_turboDpmppSDE.safetensors?download=true',
-        #url='https://civitai.com/api/download/models/251662',
-        model_dir=path_checkpoints,
-        file_name='DreamShaperXL.safetensors'
-    )
-
-
     #load_file_from_url(
-        #url='https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/lazymixRealAmateur_v40.safetensors?download=true',
-        #url='https://civitai.com/api/download/models/300972',
+        #url='https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/dreamshaperXL_turboDpmppSDE.safetensors?download=true',
+        #url='https://civitai.com/api/download/models/251662',
         #model_dir=path_checkpoints,
-        #file_name='LazyMix.safetensors'
+        #file_name='DreamShaperXL.safetensors'
     #)
+
+
+    load_file_from_url(
+        url='https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/lazymixRealAmateur_v40.safetensors?download=true',
+        #url='https://civitai.com/api/download/models/300972',
+        model_dir=path_checkpoints,
+        file_name='LazyMix.safetensors'
+    )
 
 
     #load_file_from_url(
