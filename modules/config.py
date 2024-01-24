@@ -234,7 +234,7 @@ default_prompt_negative = get_config_item_or_set_default(
 )
 default_prompt = get_config_item_or_set_default(
     key='default_prompt',
-    default_value='A young white beautiful woman, 23 years old, red head, red intense hair color, white skin',
+    default_value='',
     validator=lambda x: isinstance(x, str),
     disable_empty_as_none=True
 )
