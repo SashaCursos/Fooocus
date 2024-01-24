@@ -219,7 +219,8 @@ default_styles = get_config_item_or_set_default(
     default_value=[
         "Fooocus V2",
         "Fooocus Enhance",
-        "Fooocus Sharp"
+        "Fooocus Sharp",
+        "Fooocus Photograph"
     ],
     validator=lambda x: isinstance(x, list) and all(y in modules.sdxl_styles.legal_style_names for y in x)
 )
@@ -231,13 +232,13 @@ default_prompt_negative = get_config_item_or_set_default(
 )
 default_prompt = get_config_item_or_set_default(
     key='default_prompt',
-    default_value='',
+    default_value='A young white beautiful woman, 23 years old, red head, red intense hair color, white skin',
     validator=lambda x: isinstance(x, str),
     disable_empty_as_none=True
 )
 default_performance = get_config_item_or_set_default(
     key='default_performance',
-    default_value='Speed',
+    default_value='Quality',
     validator=lambda x: x in modules.flags.performance_selections
 )
 default_advanced_checkbox = get_config_item_or_set_default(
@@ -252,18 +253,21 @@ default_max_image_number = get_config_item_or_set_default(
 )
 default_image_number = get_config_item_or_set_default(
     key='default_image_number',
-    default_value=2,
+    default_value=1,
     validator=lambda x: isinstance(x, int) and 1 <= x <= default_max_image_number
 )
+
 checkpoint_downloads = get_config_item_or_set_default(
     key='checkpoint_downloads',
     default_value={
-    "juggernautXL_version8Rundiffusion.safetensors": "https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/juggernautXL_v8Rundiffusion.safetensors?download=true"    
-    #"juggernautXL_version8Rundiffusion.safetensors": "https://civitai.com/api/download/models/288982?type=Model&format=SafeTensor&size=full&fp=fp16"
     #"juggernautXL_version6Rundiffusion.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_version6Rundiffusion.safetensors"
+    "juggernautXL_version8Rundiffusion.safetensors": "https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/juggernautXL_v8Rundiffusion.safetensors?download=true"
+    #"SDXXXL.safetensors": "https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/sdxxxl_v30.safetensors?download=true"
+    #"DreamShaperXL.safetensors": "https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/dreamshaperXL_turboDpmppSDE.safetensors?download=true"
     },
     validator=lambda x: isinstance(x, dict) and all(isinstance(k, str) and isinstance(v, str) for k, v in x.items())
 )
+
 lora_downloads = get_config_item_or_set_default(
     key='lora_downloads',
     default_value={
@@ -271,6 +275,7 @@ lora_downloads = get_config_item_or_set_default(
     },
     validator=lambda x: isinstance(x, dict) and all(isinstance(k, str) and isinstance(v, str) for k, v in x.items())
 )
+
 embeddings_downloads = get_config_item_or_set_default(
     key='embeddings_downloads',
     default_value={},
