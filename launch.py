@@ -121,11 +121,11 @@ def download_models():
     #)
 
 #LORAS    
-    load_file_from_url(
-        url='https://civitai.com/api/download/models/280811?type=Model&format=SafeTensor',
-        model_dir=path_loras,
-        file_name='FappXL.safetensors'
-    )
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/280811?type=Model&format=SafeTensor',
+        #model_dir=path_loras,
+        #file_name='FappXL.safetensors'
+    #)
     
     #load_file_from_url(
         #url='https://civitai.com/api/download/models/280241?type=Model&format=SafeTensor',
