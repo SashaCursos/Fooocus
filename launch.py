@@ -107,18 +107,18 @@ def download_models():
 #REFINERS1.5
 
     #load_file_from_url(
-        #url='https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/lazymixRealAmateur_v40.safetensors?download=true',
+        #url='https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/lazymixRealAmateur_v40.safetensors',
         #url='https://civitai.com/api/download/models/300972',
         #model_dir=path_checkpoints,
         #file_name='LazyMix.safetensors'
     #)
 
-    #load_file_from_url(
-        #url='https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/realisticVisionV60B1_v60B1VAE.safetensors?download=true',
+    load_file_from_url(
+        url='https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/realisticVisionV60B1_v60B1VAE.safetensors',
         #url='https://civitai.com/api/download/models/245598?type=Model&format=SafeTensor&size=full&fp=fp16',
-        #model_dir=path_checkpoints,
-        #file_name='RealisticVision6.safetensors'
-    #)
+        model_dir=path_checkpoints,
+        file_name='RealisticVision6.safetensors'
+    )
 
 #LORAS    
     #load_file_from_url(
@@ -206,11 +206,11 @@ def download_models():
         #file_name='iPhoneMirrorSelfie.safetensors'
     #) 
 
-    load_file_from_url(
-        url='https://civitai.com/api/download/models/197172',
-        model_dir=path_loras,
-        file_name='BrieLarsonSDXL.safetensors'
-    )
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/197172',
+        #model_dir=path_loras,
+        #file_name='BrieLarsonSDXL.safetensors'
+    #)
 
     #load_file_from_url(
         #url='https://civitai.com/api/download/models/195753',
