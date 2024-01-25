@@ -106,12 +106,12 @@ def download_models():
 
 #REFINERS1.5
 
-    load_file_from_url(
-        url='https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/lazymixRealAmateur_v40.safetensors',
+    #load_file_from_url(
+        #url='https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/lazymixRealAmateur_v40.safetensors',
         #url='https://civitai.com/api/download/models/300972',
-        model_dir=path_checkpoints,
-        file_name='LazyMix.safetensors'
-    )
+        #model_dir=path_checkpoints,
+        #file_name='LazyMix.safetensors'
+    #)
 
     #load_file_from_url(
         #url='https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/realisticVisionV60B1_v60B1VAE.safetensors',
@@ -139,11 +139,11 @@ def download_models():
         #file_name='PussyLegsTitsPose.safetensors'
     #)
 
-    load_file_from_url(
-        url='https://civitai.com/api/download/models/160240?type=Model&format=SafeTensor',
-        model_dir=path_loras,
-        file_name='NSFWPOVAllInOneSDXL.safetensors'
-    )
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/160240?type=Model&format=SafeTensor',
+        #model_dir=path_loras,
+        #file_name='NSFWPOVAllInOneSDXL.safetensors'
+    #)
 
     #load_file_from_url(
         #url='https://civitai.com/api/download/models/131645?type=Model&format=SafeTensor',
@@ -188,11 +188,11 @@ def download_models():
     #)   
 
 
-    load_file_from_url(
-        url='https://civitai.com/api/download/models/132739?type=Model&format=SafeTensor',
-        model_dir=path_loras,
-        file_name='Onoff.safetensors'
-    ) 
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/132739?type=Model&format=SafeTensor',
+        #model_dir=path_loras,
+        #file_name='Onoff.safetensors'
+    #) 
 
     #load_file_from_url(
         #url='https://civitai.com/api/download/models/288679?type=Model&format=SafeTensor',
