@@ -106,19 +106,19 @@ def download_models():
 
 #REFINERS1.5
 
-    #load_file_from_url(
-        #url='https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/lazymixRealAmateur_v40.safetensors',
-        #url='https://civitai.com/api/download/models/300972',
-        #model_dir=path_checkpoints,
-        #file_name='LazyMix.safetensors'
-    #)
-
     load_file_from_url(
-        url='https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/realisticVisionV60B1_v60B1VAE.safetensors',
-        #url='https://civitai.com/api/download/models/245598?type=Model&format=SafeTensor&size=full&fp=fp16',
+        url='https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/lazymixRealAmateur_v40.safetensors',
+        url='https://civitai.com/api/download/models/300972',
         model_dir=path_checkpoints,
-        file_name='RealisticVision6.safetensors'
+        file_name='LazyMix.safetensors'
     )
+
+    #load_file_from_url(
+        #url='https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/realisticVisionV60B1_v60B1VAE.safetensors',
+        #url='https://civitai.com/api/download/models/245598?type=Model&format=SafeTensor&size=full&fp=fp16',
+        #model_dir=path_checkpoints,
+        #file_name='RealisticVision6.safetensors'
+    #)
 
 #LORAS    
     #load_file_from_url(
