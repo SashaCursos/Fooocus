@@ -211,7 +211,48 @@ def download_models():
         #model_dir=path_loras,
         #file_name='BrieLarsonSDXL.safetensors'
     #)
-    
+
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/195753',
+        #model_dir=path_loras,
+        #file_name='HaileeSteinfeldSDXL.safetensors'
+    #)
+
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/243854',
+        #model_dir=path_loras,
+        #file_name='ElizabethOlsenSDXL.safetensors'
+    #)
+
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/129681',
+        #model_dir=path_loras,
+        #file_name='ScarlettJohanssonSDXL.safetensors'
+    #)
+
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/200333',
+        #model_dir=path_loras,
+        #file_name='MarisaTomeiSDXL.safetensors'
+    #)
+
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/264789?type=Model&format=SafeTensor',
+        #model_dir=path_loras,
+        #file_name='LegsBehindHeadSDXL.safetensors'
+    #)
+
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/191924?type=Model&format=SafeTensor',
+        #model_dir=path_loras,
+        #file_name='TitsqueezeSDXL.safetensors'
+    #)
+
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/191924?type=Model&format=SafeTensor',
+        #model_dir=path_loras,
+        #file_name='TitsqueezeSDXL.safetensors'
+    #)
     
     
     
