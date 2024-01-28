@@ -121,11 +121,11 @@ def download_models():
     #)
 
 #LORAS    
-    #load_file_from_url(
-        #url='https://civitai.com/api/download/models/280811?type=Model&format=SafeTensor',
-        #model_dir=path_loras,
-        #file_name='FappXL.safetensors'
-    #)
+    load_file_from_url(
+        url='https://civitai.com/api/download/models/280811?type=Model&format=SafeTensor',
+        model_dir=path_loras,
+        file_name='FappXL.safetensors'
+    )
     
     #load_file_from_url(
         #url='https://civitai.com/api/download/models/280241?type=Model&format=SafeTensor',
@@ -139,11 +139,11 @@ def download_models():
         #file_name='PussyLegsTitsPose.safetensors'
     #)
 
-    #load_file_from_url(
-        #url='https://civitai.com/api/download/models/160240?type=Model&format=SafeTensor',
-        #model_dir=path_loras,
-        #file_name='NSFWPOVAllInOneSDXL.safetensors'
-    #)
+    load_file_from_url(
+        url='https://civitai.com/api/download/models/160240?type=Model&format=SafeTensor',
+        model_dir=path_loras,
+        file_name='NSFWPOVAllInOneSDXL.safetensors'
+    )
 
     #load_file_from_url(
         #url='https://civitai.com/api/download/models/131645?type=Model&format=SafeTensor',
@@ -236,11 +236,11 @@ def download_models():
         #file_name='LegsBehindHeadSDXL.safetensors'
     #)
 
-    #load_file_from_url(
-        #url='https://civitai.com/api/download/models/191924?type=Model&format=SafeTensor',
-        #model_dir=path_loras,
-        #file_name='TitsqueezeSDXL.safetensors'
-    #)
+    load_file_from_url(
+        url='https://civitai.com/api/download/models/191924?type=Model&format=SafeTensor',
+        model_dir=path_loras,
+        file_name='TitsqueezeSDXL.safetensors'
+    )
     
     
 #EMBEDDINGS
