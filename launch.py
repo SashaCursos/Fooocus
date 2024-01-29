@@ -128,7 +128,7 @@ def download_models():
     )
     
     load_file_from_url(
-        url='https://civitai.com/api/download/models/280241?type=Model&format=SafeTensor',
+        url='https://civitai.com/api/download/models/280241',
         model_dir=path_loras,
         file_name='FingeringSDXL.safetensors'
     )
