@@ -128,7 +128,7 @@ def download_models():
     )
     
     load_file_from_url(
-        url='https://civitai.com/api/download/models/280241',
+        url='https://huggingface.co/SashaCursos/fav_models/resolve/main/loras/2FingersSDXL_v03.safetensors?download=true',
         model_dir=path_loras,
         file_name='FingeringSDXL.safetensors'
     )
