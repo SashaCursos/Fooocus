@@ -134,7 +134,7 @@ def download_models():
     )
     
     load_file_from_url(
-        url='https://civitai.com/api/download/models/275493',
+        url='https://huggingface.co/SashaCursos/fav_models/resolve/main/loras/PLASTT.safetensors?download=true',
         model_dir=path_loras,
         file_name='PussyLegsTitsPose.safetensors'
     )
