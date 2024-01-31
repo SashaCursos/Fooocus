@@ -121,23 +121,23 @@ def download_models():
     #)
 
 #LORAS    
-    load_file_from_url(
-        url='https://civitai.com/api/download/models/280811?type=Model&format=SafeTensor',
-        model_dir=path_loras,
-        file_name='FappXL.safetensors'
-    )
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/280811?type=Model&format=SafeTensor',
+        #model_dir=path_loras,
+        #file_name='FappXL.safetensors'
+    #)
     
-    load_file_from_url(
-        url='https://huggingface.co/SashaCursos/fav_models/resolve/main/loras/2FingersSDXL_v03.safetensors?download=true',
-        model_dir=path_loras,
-        file_name='FingeringSDXL.safetensors'
-    )
+    #load_file_from_url(
+        #url='https://huggingface.co/SashaCursos/fav_models/resolve/main/loras/2FingersSDXL_v03.safetensors?download=true',
+        #model_dir=path_loras,
+        #file_name='FingeringSDXL.safetensors'
+    #)
     
-    load_file_from_url(
-        url='https://huggingface.co/SashaCursos/fav_models/resolve/main/loras/PLASTT.safetensors?download=true',
-        model_dir=path_loras,
-        file_name='PussyLegsTitsPose.safetensors'
-    )
+    #load_file_from_url(
+        #url='https://huggingface.co/SashaCursos/fav_models/resolve/main/loras/PLASTT.safetensors?download=true',
+        #model_dir=path_loras,
+        #file_name='PussyLegsTitsPose.safetensors'
+    #)
 
     #load_file_from_url(
         #url='https://civitai.com/api/download/models/160240?type=Model&format=SafeTensor',
