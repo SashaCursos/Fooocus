@@ -236,17 +236,17 @@ def download_models():
         #file_name='LegsBehindHeadSDXL.safetensors'
     #)
 
-    load_file_from_url(
-        url='https://civitai.com/api/download/models/191924?type=Model&format=SafeTensor',
-        model_dir=path_loras,
-        file_name='TitsqueezeSDXL.safetensors'
-    )
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/191924?type=Model&format=SafeTensor',
+        #model_dir=path_loras,
+        #file_name='TitsqueezeSDXL.safetensors'
+    #)
     
-    load_file_from_url(
-        url='https://civitai.com/api/download/models/177308?type=Model&format=SafeTensor',
-        model_dir=path_loras,
-        file_name='HandBraSDXL.safetensors'
-    )
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/177308?type=Model&format=SafeTensor',
+        #model_dir=path_loras,
+        #file_name='HandBraSDXL.safetensors'
+    #)
 
 
 
