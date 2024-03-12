@@ -158,7 +158,7 @@ default_base_model_name = get_config_item_or_set_default(
     #default_value='juggernautXL_version8Rundiffusion.safetensors',
     default_value='SDXXXL.safetensors',
     #default_value='DreamShaperXL.safetensors',
-    #default_value='DreamShaperXL.safetensors',
+    #default_value='PonyDiffusion.safetensors',
     validator=lambda x: isinstance(x, str)
 )
 default_refiner_model_name = get_config_item_or_set_default(
