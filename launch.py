@@ -248,6 +248,20 @@ def download_models():
         #file_name='HandBraSDXL.safetensors'
     #)
 
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/177308?type=Model&format=SafeTensor',
+        #model_dir=path_loras,
+        #file_name='Comic1.safetensors'
+    #)
+
+    #load_file_from_url(
+        #url='https://civitai.com/api/download/models/177308?type=Model&format=SafeTensor',
+        #model_dir=path_loras,
+        #file_name='Comic2.safetensors'
+    #)
+
+https://civitai.com/api/download/models/10580?type=Model&format=SafeTensor&size=full&fp=fp16
+https://civitai.com/api/download/models/283209
 
 
     
