@@ -156,8 +156,8 @@ default_base_model_name = get_config_item_or_set_default(
     key='default_model',
     #default_value='juggernautXL_version6Rundiffusion.safetensors',
     #default_value='juggernautXL_version8Rundiffusion.safetensors',
-    default_value='SDXXXL.safetensors',
-    #default_value='DreamShaperXL.safetensors',
+    #default_value='SDXXXL.safetensors',
+    default_value='DreamShaperXL.safetensors',
     #default_value='PonyDiffusion.safetensors',
     validator=lambda x: isinstance(x, str)
 )
@@ -265,8 +265,8 @@ checkpoint_downloads = get_config_item_or_set_default(
     default_value={
     #"juggernautXL_version6Rundiffusion.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_version6Rundiffusion.safetensors"
     #"juggernautXL_version8Rundiffusion.safetensors": "https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/juggernautXL_v8Rundiffusion.safetensors"
-    "SDXXXL.safetensors": "https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/sdxxxl_v30.safetensors"
-    #"DreamShaperXL.safetensors": "https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/dreamshaperXL_turboDpmppSDE.safetensors"
+    #"SDXXXL.safetensors": "https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/sdxxxl_v30.safetensors"
+    "DreamShaperXL.safetensors": "https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/dreamshaperXL_turboDpmppSDE.safetensors"
     #"PonyDiffusion.safetensors": "https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/dreamshaperXL_turboDpmppSDE.safetensors"
     },
     validator=lambda x: isinstance(x, dict) and all(isinstance(k, str) and isinstance(v, str) for k, v in x.items())
