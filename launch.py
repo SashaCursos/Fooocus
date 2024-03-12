@@ -123,14 +123,22 @@ def download_models():
     load_file_from_url(
         url='https://civitai.com/api/download/models/283209',
         model_dir=path_loras,
-        file_name='Comic1.safetensors'
+        file_name='ComicBabes.safetensors'
     )
 
     load_file_from_url(
-        url='https://civitai.com/api/download/models/10580?type=Model&format=SafeTensor&size=full&fp=fp16',
+        url='https://civitai.com/api/download/models/229003',
         model_dir=path_loras,
-        file_name='Comic2.safetensors'
+        file_name='SCHExcelsior.safetensors'
     )
+
+    load_file_from_url(
+        url='https://civitai.com/api/download/models/139417',
+        model_dir=path_loras,
+        file_name='COMICSFANTASY.safetensors'
+    )
+
+    
 
 #LORAS    
     #load_file_from_url(
