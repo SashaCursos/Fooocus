@@ -120,17 +120,17 @@ def download_models():
         #file_name='RealisticVision6.safetensors'
     #)
 
-    #load_file_from_url(
-        #url='https://civitai.com/api/download/models/283209',
-        #model_dir=path_loras,
-        #file_name='Comic1.safetensors'
-    #)
+    load_file_from_url(
+        url='https://civitai.com/api/download/models/283209',
+        model_dir=path_loras,
+        file_name='Comic1.safetensors'
+    )
 
-    #load_file_from_url(
-        #url='https://civitai.com/api/download/models/10580?type=Model&format=SafeTensor&size=full&fp=fp16',
-        #model_dir=path_loras,
-        #file_name='Comic2.safetensors'
-    #)
+    load_file_from_url(
+        url='https://civitai.com/api/download/models/10580?type=Model&format=SafeTensor&size=full&fp=fp16',
+        model_dir=path_loras,
+        file_name='Comic2.safetensors'
+    )
 
 #LORAS    
     #load_file_from_url(
