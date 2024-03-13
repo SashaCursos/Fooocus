@@ -120,23 +120,23 @@ def download_models():
         #file_name='RealisticVision6.safetensors'
     #)
 
-    #load_file_from_url(
-        #url='https://civitai.com/api/download/models/283209',
-        #model_dir=path_loras,
-        #file_name='ComicBabes.safetensors'
-    #)
+    load_file_from_url(
+        url='https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/comicBabes.safetensors?download=true',
+        model_dir=path_loras,
+        file_name='ComicBabes.safetensors'
+    )
 
     #load_file_from_url(
-        #url='https://civitai.com/api/download/models/229003',
+        #url='https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/schExcelsior.safetensors?download=true',
         #model_dir=path_loras,
         #file_name='SCHExcelsior.safetensors'
     #)
 
-    #load_file_from_url(
-        #url='https://civitai.com/api/download/models/139417',
-        #model_dir=path_loras,
-        #file_name='COMICSFANTASY.safetensors'
-    #)
+    load_file_from_url(
+        url='https://huggingface.co/SashaCursos/fav_models/resolve/main/fav/COMICSandFantasy.safetensors?download=true',
+        model_dir=path_loras,
+        file_name='COMICSFANTASY.safetensors'
+    )
 
     
 
