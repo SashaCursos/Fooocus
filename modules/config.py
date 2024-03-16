@@ -163,7 +163,7 @@ default_base_model_name = get_config_item_or_set_default(
 )
 default_refiner_model_name = get_config_item_or_set_default(
     key='default_refiner',
-    default_value='ComicBabes.safetensors',
+    default_value='None',
     validator=lambda x: isinstance(x, str)
 )
 default_refiner_switch = get_config_item_or_set_default(
