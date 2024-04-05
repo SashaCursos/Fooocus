@@ -268,59 +268,59 @@ def download_models():
         #file_name='HandBraSDXL.safetensors'
     #)
 
-    '''PERFECT HANDS
-    For hands SDXL
-    https://civitai.com/models/200255/hands-xl-sd-15?modelVersionId=254267'''
+    #PERFECT HANDS
+    #For hands SDXL
+    #https://civitai.com/models/200255/hands-xl-sd-15?modelVersionId=254267
     load_file_from_url(
         url='https://huggingface.co/SashaCursos/fav_models/resolve/main/loras/Perfect%20Hands%20v2.safetensors?download=true',
         model_dir=path_loras,
         file_name='PerfectHands.safetensors'
     )
 
-    '''PERFECT FEET
-    For hands SDXL
-    https://civitai.com/models/200251/feet?modelVersionId=225347'''
+    #PERFECT FEET
+    #For hands SDXL
+    #https://civitai.com/models/200251/feet?modelVersionId=225347
     #load_file_from_url(
         #url='https://huggingface.co/SashaCursos/fav_models/resolve/main/loras/sd1.5_perfect%20feet.safetensors?download=true',
         #model_dir=path_loras,
         #file_name='PerfectFeet.safetensors'
     #)
 
-    '''SEXY SDXL
-    Helps making NSFW in SDXL
-    https://civitai.com/models/145573?modelVersionId=186014'''
+    #SEXY SDXL
+    #Helps making NSFW in SDXL
+    #https://civitai.com/models/145573?modelVersionId=186014
     #load_file_from_url(
         #url='https://huggingface.co/SashaCursos/fav_models/resolve/main/loras/SexyConiAIp.safetensors?download=true',
         #model_dir=path_loras,
         #file_name='SexyKony.safetensors'
     #)
 
-    '''Detail Tweaker
-    Change the level of details
-    https://civitai.com/models/122359?modelVersionId=135867'''
+    #Detail Tweaker
+    #Change the level of details
+    #https://civitai.com/models/122359?modelVersionId=135867
     #load_file_from_url(
         #url='https://huggingface.co/SashaCursos/fav_models/resolve/main/loras/add-detail-xl.safetensors?download=true',
         #model_dir=path_loras,
         #file_name='DetailTweaker.safetensors'
     #)
 
-    '''RetouchXL for PonyV6
-    Retouch the 3D aesthetics for PonyV6
-    Weight: 0.5+
-    Sampling method: DPM++ 2M SDE Karras / Restart
-    It is recommended to use adetailer to fix small face and bad eyes
-    https://civitai.com/models/331812?modelVersionId=373148'''
+    #RetouchXL for PonyV6
+    #Retouch the 3D aesthetics for PonyV6
+    #Weight: 0.5+
+    #Sampling method: DPM++ 2M SDE Karras / Restart
+    #It is recommended to use adetailer to fix small face and bad eyes
+    #https://civitai.com/models/331812?modelVersionId=373148
     #load_file_from_url(
         #url='https://huggingface.co/SashaCursos/fav_models/resolve/main/loras/RetouchXL_PonyV6_v2.safetensors?download=true',
         #model_dir=path_loras,
         #file_name='RetouchPonyV6.safetensors'
     #)
 
-    '''Styles For Pony Diffusion V6 XL
-    It can produce nsfw/sfw content but you may need to use the correct tag 
-    in order to get sfw content without one of your character going around naked
-    https://civitai.com/models/297619?modelVersionId=422554
-    Can check characters https://docs.google.com/spreadsheets/d/1JLtTsEzyQoKk-K7IdAksJa4wYo9-I_ANGej3Kx24s_E/edit#gid=0'''
+    #Styles For Pony Diffusion V6 XL
+    #It can produce nsfw/sfw content but you may need to use the correct tag 
+    #in order to get sfw content without one of your character going around naked
+    #https://civitai.com/models/297619?modelVersionId=422554
+    #Can check characters https://docs.google.com/spreadsheets/d/1JLtTsEzyQoKk-K7IdAksJa4wYo9-I_ANGej3Kx24s_E/edit#gid=0
     #load_file_from_url(
         #url='https://huggingface.co/SashaCursos/fav_models/resolve/main/loras/2.5DRealistic.safetensors?download=true',
         #model_dir=path_loras,
