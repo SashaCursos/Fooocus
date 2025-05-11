@@ -1,6 +1,6 @@
 {
-    "default_model_1": "juggernautXL_v8Rundiffusion.safetensors",
-    "default_model_2": "sdxxxl_v30.safetensors",
+    "default_model": "sdxxxl_v30.safetensors",
+    "default_model_2": "juggernautXL_v8Rundiffusion.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
